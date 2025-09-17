@@ -39,7 +39,7 @@ public class Main {
             System.out.println("\nDemo fleet has been saved to my_fleet.csv");
 
         } catch (InvalidOperationException e) {
-            System.err.println("Error setting up demo fleet: " + e.getMessage());
+            System.err.println("Error setting up my_fleet: " + e.getMessage());
         }
     }
 
