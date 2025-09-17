@@ -8,7 +8,7 @@ import interfaces.FuelConsumable;
 import interfaces.Maintainable;
 import interfaces.PassengerCarrier;
 
-public class Airplane extends AirVehicle implements  , PassengerCarrier, CargoCarrier, Maintainable {
+public class Airplane extends AirVehicle implements FuelConsumable, PassengerCarrier, CargoCarrier, Maintainable {
 
     private double fuelLevel;
     private final int passengerCapacity = 200;
