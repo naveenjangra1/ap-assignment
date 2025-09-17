@@ -20,7 +20,6 @@ public abstract class Vehicle implements Comparable<Vehicle> {
         this.currentMileage = 0.0;
     }
 
-    // AFTER
     public abstract void move(double distance) throws InvalidOperationException, InsufficientFuelException;
     public abstract double calculateFuelEfficiency();
     public abstract double estimateJourneyTime(double distance);
